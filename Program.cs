@@ -1,5 +1,7 @@
 ﻿using NLog;
 using System.Linq;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
 using NorthwindConsole.Model;
 string path = Directory.GetCurrentDirectory() + "//nlog.config";
 
